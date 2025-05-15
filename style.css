@@ -1,0 +1,13 @@
+body {
+  font-size: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+
+div {
+  margin: 10px;
+}
