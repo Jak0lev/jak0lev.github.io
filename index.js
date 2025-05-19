@@ -2,8 +2,8 @@ function arvutamine() {
   var x = document.getElementById("x").value;
   var y = document.getElementById("y").value;
   var z = document.getElementById("z").value;
-  x = parseInt(x);
-  y = parseInt(y);
+  x = parseFloat(x);
+  y = parseFloat(y);
   z = parseFloat(z);
   
   if (isNaN(z)) {
