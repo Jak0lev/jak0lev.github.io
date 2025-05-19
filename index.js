@@ -10,6 +10,6 @@ function arvutamine() {
     z = 0.11;
   }
   
-  document.getElementById("a").textContent = (x / 1000) * y + " kWh";
-  document.getElementById("b").textContent = ((x/1000) * y * z).toFixed(2) + " €";
+  document.getElementById("a").textContent = (x / 1000.0) * y + " kWh";
+  document.getElementById("b").textContent = ((x/1000.0) * y * z).toFixed(2) + " €";
 }
